@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "hola"
+      ],
+      "responses": [
+        "Hello, I'm Sarah, an AI assistant capable of translating languages I'm familiar with into your preferred languages. How may I be of service?",
+        "Greetings! I'm Sarah, your AI assistant, equipped to translate languages I understand into the languages you desire. How can I assist you?",
+        "Hi there, I'm Sarah, an AI assistant with the ability to translate languages I'm knowledgeable in into your preferred languages. What can I help you with today?",
+        "Good day! I'm Sarah, an AI assistant, ready to translate from my known languages into your chosen ones. How may I assist you?",
+        "Hey, it's Sarah, your AI assistant. I can translate languages I know into the languages you prefer. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Great","Awesome","Bravo","Superb","Super","Fantastic","You are the best"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "translateRequest",
+      "patterns": [
+          "Can you translate this sentence for me?",
+          "I need a translation.",
+          "Hey, can you translate this for me?",
+          "Could you help me with the translation of this sentence?",
+          "I require a translation, please.",
+          "Hey, I'm wondering if you can translate this for me.",
+          "translate",
+          "translation",
+          "translation help"
+      ],
+      "responses": [
+          "Of course, I'd be happy to help. Please provide the sentence you'd like me to translate.",
+          "Sure thing! What's the text you want to translate?",
+          "Certainly, I'm here to assist. Could you share the sentence you want me to translate?",
+          "Of course! Please share the text you'd like me to translate."
+      ]
+    },
+    {
+      "tag": "yes",
+      "patterns": [
+        "Yes",
+        "Sure",
+        "Okay",
+        "Of course",
+        "Certainly",
+        "absolutely",
+        "right",
+        "correct",
+        "yea",
+        "yep",
+        "ofcourse"
+      ],
+      "responses": [
+        "Great!",
+        "Awesome!",
+        "Sure thing.",
+        "Alright,"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "No",
+        "No, thanks",
+        "I'm good",
+        "Not now",
+        "No, I'm okay",
+        "Wrong",
+        "incorrect",
+        "Nope"
+      ],
+      "responses": [
+        "Alright",
+        "Sure",
+        "Okay then.",
+        "Understood."
+      ]
+    }
+  ]
+}
+

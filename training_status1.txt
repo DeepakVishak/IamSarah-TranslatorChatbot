@@ -1,0 +1,14 @@
+epoch 100/1000, loss = 1.6915
+epoch 200/1000, loss = 0.3941
+epoch 300/1000, loss = 0.0075
+epoch 400/1000, loss = 0.0159
+epoch 500/1000, loss = 0.0006
+epoch 600/1000, loss = 0.0035
+epoch 700/1000, loss = 0.0042
+epoch 800/1000, loss = 0.0011
+epoch 900/1000, loss = 0.0019
+epoch 1000/1000, loss = 0.0001
+Final loss, loss = 0.0001
+Training is complete and data saved to data.pth
+
+Process finished with exit code 0

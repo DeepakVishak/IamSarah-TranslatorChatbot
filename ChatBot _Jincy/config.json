@@ -1,0 +1,31 @@
+{
+  "bot_name": "Sarah",
+  "preferred_language": "hindi",
+  "idk_responses": [
+    "I don't understand. Could you correct me?",
+    "I'm interested in what you're saying, but I'd appreciate it if you could go over it again.",
+    "I'd like to make sure I've got it right. Can you go through it one more time?",
+    "I'm not entirely clear on this. Could you walk me through it once more."
+  ],
+  "change_in_language_responses": [
+    "Which language would you like to translate into? Your choice.",
+    "Could you specify the language you want to translate into?",
+    "Tell me, which language is your preference for translation?",
+    "Considering your skills, which language do you want to translate into?",
+    "Is there a specific language in mind that you'd like to translate into?"
+  ],
+  "request_for_language": [
+    "I apologize, I couldn't identify the language. Could you please specify which language this is?",
+    "My apologies, I couldn't recognize the language. Would you mind letting me know which language it is?",
+    "I'm sorry, but I couldn't determine the language. Can you provide more details about which language you're using?",
+    "I couldn't understand the language, and I'd appreciate it if you could clarify which language you're using.",
+    "I'm having trouble identifying the language. Could you specify the language you're using, please?"
+  ],
+  "language_detect_error_handle": [
+    "Apologies, the specified language is either unavailable or incorrect.",
+    "Regrettably, the provided language is not accessible or is invalid.",
+    "I'm sorry, but the language you provided is either not supported or incorrect.",
+    "Unfortunately, the language you entered is either unavailable or incorrect.",
+    "My apologies, the given language is not in our database or is incorrect."
+  ]
+}
